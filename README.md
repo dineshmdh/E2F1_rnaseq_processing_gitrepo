@@ -1,11 +1,8 @@
 # E2F1_rnaseq_processing
-Processing done on E2F1 rnaseq data across 6 conditions; used in Igor's paper.
 
 All the scripts ending in .q were run in SLURM for parallel processing of the samples and call their corresponding .py script. 
 
-Details of the processing (also mentioned in the Methods section in the paper) is as follows:
-
-E2F1 RNA-seq processing
+### Details of the processing (also mentioned in the Methods section in the paper) is as follows:
 
 The raw data can be downloaded from GEO using the accession number GSE93365. There were 5 forward (_R1.fastqz) and corresponding 5 reverse (_R2.fastqz) raw fastq files. The forward-reverse pairs were labeled “S1” to “S5” and corresponded to the following conditions:
 
